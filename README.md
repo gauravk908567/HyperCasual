@@ -1,12 +1,13 @@
 # Furry Escape
  Table of Contents
-- Description
+-  [Description](https://github.com/gauravk908567/HyperCasual)
 - Aim of Project
 - Softwares Used
 
-Description 
--Hyper Casual Game, Vertical moving platformer.
- Player should stay alive by staying on the platforms.
+------------------------------------------------------------------------------------------------------
+  Description
+- Hyper Casual Game, Vertical moving platformer.
+- Player should stay alive by staying on the platforms.
 
 Aim of project
 - Development of Game mechanics and Designing Game assets for this project.
