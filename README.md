@@ -27,3 +27,5 @@
 
 ------------------------------------------------------------------------------------------------------
 ## Screenshot
+<img src="https://github.com/gauravk908567/HyperCasual/blob/main/Gameplay_Screen.png" width="240"> 
+<img src="https://github.com/gauravk908567/HyperCasual/blob/main/Home_screen.png" width="240"> 
