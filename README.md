@@ -36,5 +36,4 @@
 
 ## Gameplay
 
-https://user-images.githubusercontent.com/51830845/139218916-bef9b064-11ce-419e-98e9-ceef05f9eeb5.mp4
 
