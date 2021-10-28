@@ -14,17 +14,17 @@
 
 ------------------------------------------------------------------------------------------------------
  ## Aim of Project
-- Development of Game mechanics and Designing Game assets for this project.
-- Instantiation of objects.
-- Created prefab with different attributes.
-- Background Scrolling using Quad.
-- Used Collision Methods for different platforms effect ( OnCollisionEnter2D , OnCollisionStay2D)
+- Development of **Game mechanics and Designing Game assets** for this project.
+- **Instantiation** of objects.
+- Created **prefab** with **different attributes**.
+- Background Scrolling using **Quad**.
+- Used **Collision Methods** for different platforms effect ***(OnCollisionEnter2D , OnCollisionStay2D)***
 
 ------------------------------------------------------------------------------------------------------
 ## Software Used
-- Adobe Photoshop
-- Adobe illustrator
-- Unity
+- **Adobe Photoshop**
+- **Adobe illustrator**
+- **Unity**
 
 ------------------------------------------------------------------------------------------------------
 ## Screenshot
