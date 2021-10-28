@@ -31,9 +31,9 @@
 <img src="https://github.com/gauravk908567/HyperCasual/blob/main/Gameplay_Screen.png" width="240"> 
 <img src="https://github.com/gauravk908567/HyperCasual/blob/main/Home_screen.png" width="240"> 
 
-
--------------------------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------------------------------
 ## Gameplay
+
+https://user-images.githubusercontent.com/51830845/139220701-acc9f0cf-0371-4e14-bf19-e90a8b2086ee.mp4
 
 
