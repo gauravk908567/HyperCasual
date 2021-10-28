@@ -5,6 +5,7 @@
 * [Aim of project](#Aim-of-project)
 * [Software Used](#Software-used)
 * [Screenshot](#screenshot)
+* [Gameplay](#Gameplay)
 
 ------------------------------------------------------------------------------------------------------
  ## Description
@@ -29,3 +30,11 @@
 ## Screenshot
 <img src="https://github.com/gauravk908567/HyperCasual/blob/main/Gameplay_Screen.png" width="240"> 
 <img src="https://github.com/gauravk908567/HyperCasual/blob/main/Home_screen.png" width="240"> 
+
+
+-------------------------------------------------------------------------------------------------------
+
+## Gameplay
+
+https://user-images.githubusercontent.com/51830845/139218916-bef9b064-11ce-419e-98e9-ceef05f9eeb5.mp4
+
