@@ -14,6 +14,7 @@
 
 ------------------------------------------------------------------------------------------------------
  ## Aim of Project
+- Development of **UI & UX** for this game.
 - Development of **Game mechanics and Designing Game assets** for this project.
 - **Instantiation** of objects.
 - Created **prefab** with **different attributes**.
