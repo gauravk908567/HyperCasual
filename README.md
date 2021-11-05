@@ -35,6 +35,6 @@
 ------------------------------------------------------------------------------------------------------
 ## Gameplay
 
-[Gameplay](https://youtu.be/FyexA71ZQ98)
+[Gameplay](https://youtu.be/pSE8In_-llQ)
 
 
