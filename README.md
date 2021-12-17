@@ -5,7 +5,7 @@
 * [Aim of project](#Aim-of-project)
 * [Software Used](#Software-used)
 * [Screenshot](#screenshot)
-* [Gameplay](#Gameplay)
+* [Gameplay](#Gameplay/Itch.io)
 
 ------------------------------------------------------------------------------------------------------
  ## Description
@@ -33,7 +33,7 @@
 <img src="https://github.com/gauravk908567/HyperCasual/blob/main/Home_screen.png" width="240"> 
 
 ------------------------------------------------------------------------------------------------------
-## Gameplay/ Itch.io
+## Gameplay/Itch.io
 
 https://gauravk908567.itch.io/
 [Gameplay](https://youtu.be/pSE8In_-llQ)
