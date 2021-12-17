@@ -6,7 +6,8 @@
 * [Software Used](#Software-used)
 * [Screenshot](#screenshot)
 * [Gameplay](#Gameplay)
-* [Itch.io](#Itch.io)
+* [Itch](#Itch)
+
 
 ------------------------------------------------------------------------------------------------------
  ## Description
@@ -38,6 +39,6 @@
 [Gameplay](https://youtu.be/pSE8In_-llQ)
 
 ------------------------------------------------------------------------------------------------------
-## Itch.io
-[Itch.io](https://gauravk908567.itch.io/)
+## Itch
+[Itch](https://gauravk908567.itch.io/)
 
