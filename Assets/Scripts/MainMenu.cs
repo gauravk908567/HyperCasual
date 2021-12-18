@@ -16,9 +16,9 @@ public class MainMenu : MonoBehaviour
 
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-#else
-          Application.OpenURL("https://gauravk908567.itch.io/");
 #endif
+        Application.OpenURL("https://gauravk908567.itch.io/");
+
     }
 
 }
