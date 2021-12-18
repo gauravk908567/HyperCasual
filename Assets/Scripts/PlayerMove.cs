@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
 
-    public float Plspeed = 5f;    
+    public float Plspeed = 5f;
+    //public float slowspeed = 2.5f;
     public static Rigidbody2D rb;
     
    
@@ -35,7 +36,23 @@ public class PlayerMove : MonoBehaviour
             transform.position = temp;
         }
     }
-
+    /*
+    public void SlowMovement()
+    {
+        if (Input.GetKey(KeyCode.A))
+        {
+            Vector2 temp = transform.position;
+            temp.x -= slowspeed * Time.deltaTime;
+            transform.position = temp;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            Vector2 temp = transform.position;
+            temp.x += slowspeed * Time.deltaTime;
+            transform.position = temp;
+        }
+    }
+    */
     public void PlatformMove(float x)
     {
         rb.velocity = new Vector2(x, rb.velocity.y);

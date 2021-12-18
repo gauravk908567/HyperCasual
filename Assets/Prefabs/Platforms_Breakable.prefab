@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6789163624255364808}
   - component: {fileID: 6789163624255364809}
   - component: {fileID: 4498013196402295318}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platforms_Breakable
-  m_TagString: Beakable
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +48,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -144,12 +146,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Move_speed: 2.5
+  slow_speed: 2.2
   walkspeed: 0.8
   Min_X: 0
   Max_X: 0
   Bound_Y: 5.5
   Moveleft: 0
   MoveRight: 0
-  isbreakable: 1
-  speedslow: 0
   isPlatform: 0

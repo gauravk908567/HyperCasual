@@ -5,8 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Beakable
   - Spikestop
+  - Breakable
+  - SpeedSlow
+  - Movement_platform
   layers:
   - Default
   - TransparentFX
@@ -15,10 +17,10 @@ TagManager:
   - Water
   - UI
   - 
+  - Spike
   - 
   - 
-  - 
-  - 
+  - Platform
   - 
   - 
   - 

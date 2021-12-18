@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5664196067664875962}
   - component: {fileID: 1013558498312517595}
   - component: {fileID: 5835855936293306082}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform_speedslow
-  m_TagString: Untagged
+  m_TagString: SpeedSlow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +48,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -144,12 +146,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Move_speed: 2.5
+  slow_speed: 2.2
   walkspeed: 0.4
   Min_X: 0
   Max_X: 0
   Bound_Y: 5.5
   Moveleft: 0
   MoveRight: 0
-  isbreakable: 0
-  speedslow: 1
   isPlatform: 0

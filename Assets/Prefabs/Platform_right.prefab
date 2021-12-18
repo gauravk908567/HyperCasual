@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 6847232129208673602}
   - component: {fileID: 6847232129208673603}
   - component: {fileID: 8735808137170721050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform_right
-  m_TagString: Untagged
+  m_TagString: Movement_platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49,6 +49,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -164,12 +166,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Move_speed: 2.5
+  slow_speed: 2.2
   walkspeed: 0.8
   Min_X: 0
   Max_X: 0
   Bound_Y: 5.5
   Moveleft: 0
   MoveRight: 1
-  isbreakable: 0
-  speedslow: 0
   isPlatform: 0

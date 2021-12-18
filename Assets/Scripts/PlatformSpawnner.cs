@@ -13,7 +13,7 @@ public class PlatformSpawnner : MonoBehaviour
     public float Spawntimer = 2f;
     private float _current_SpawnTimer;
     private int _SpawnCount;
-    public float min_X = -5.14f, max_X = +5.14f;
+    public float min_X = -4.60f, max_X = +4.60f;
 
     void Start()
     {

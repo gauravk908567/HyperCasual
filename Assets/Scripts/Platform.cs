@@ -6,19 +6,15 @@ public class Platform : MonoBehaviour
 {
 
     public float Move_speed = 1.5f;
+    public float slow_speed = 2.2f;
     public float walkspeed = 0.4f;
     public float Min_X;
     public float Max_X;
     public float Bound_Y = 5.5f;
     
-    public bool Moveleft, MoveRight, isbreakable, speedslow, isPlatform;
+    public bool Moveleft, MoveRight, isPlatform;
 
-
-    void Awake()
-    {
-        
-    }
-
+ 
     void Update()
     {
         Move();
@@ -38,44 +34,44 @@ public class Platform : MonoBehaviour
 
    private void BreakableDeactivate()
     {
-        Invoke("DeactivateObj",4f);
+        Invoke("DeactivateObj",0.7f);
     }
-
+    /*
    private void SlowMovement()
     {
        if(Input.GetAxisRaw("Horizontal")>0)
         {
-            PlayerMove.rb.velocity = new Vector2(walkspeed, PlayerMove.rb.velocity.y);
+            PlayerMove.Plspeed -= 2f;
         }
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
-            PlayerMove.rb.velocity = new Vector2(-walkspeed, PlayerMove.rb.velocity.y);
+            PlayerMove.Plspeed -= 2f;
         }
     }
-
+    */
    private void DeactivateObj()
     {
         //SoundManager.instance.Icebreak();
         gameObject.SetActive(false);
     }
 
-    void OnTriggerEnter2D(Collider2D target)
+    /*private void OnCollisionEnter2D(Collision2D target)
     {
-        if(target.tag=="Player")
+        if(target.gameObject.tag=="Player")
         {
-            if(speedslow)
+            if(this.gameObject.tag=="SpeedSlow")
             {
                 SlowMovement();
             }
         }
-
+    
     }//ontrigerenter
-
+    */
      void OnCollisionEnter2D(Collision2D target)
     {
         if(target.gameObject.tag=="Player")
         {
-            if(isbreakable)
+            if(this.gameObject.tag=="Breakable")
             {
                 SoundManager.instance.landsound();
                 BreakableDeactivate();
@@ -90,15 +86,31 @@ public class Platform : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D target)
     {
-        if(target.gameObject.tag=="Player")
+        if(target.gameObject.tag == "Player" && this.gameObject.tag == "Movement_platform")
         {
             if(Moveleft)
             {
-                target.gameObject.GetComponent<PlayerMove>().PlatformMove(-1f);
+                target.gameObject.GetComponent<PlayerMove>().PlatformMove(-2f);
             }
             if(MoveRight)
             {
-                target.gameObject.GetComponent<PlayerMove>().PlatformMove(1f);
+                target.gameObject.GetComponent<PlayerMove>().PlatformMove(2f);
+            }
+        }
+
+        if(target.gameObject.tag == "Player" && this.gameObject.tag == "SpeedSlow")
+        {
+            if (Input.GetKey(KeyCode.A))
+            {
+                Vector2 temp = transform.position;
+                temp.x -= slow_speed * Time.deltaTime;
+                transform.position = temp;
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                Vector2 temp = transform.position;
+                temp.x += slow_speed * Time.deltaTime;
+                transform.position = temp;
             }
         }
     }//oncollisionstay

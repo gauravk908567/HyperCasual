@@ -13,8 +13,12 @@ public class MainMenu : MonoBehaviour
 
     public void Exit()
     {
-        Debug.Log("Quit");
-        Application.Quit();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+          Application.OpenURL("https://gauravk908567.itch.io/");
+#endif
     }
 
 }
