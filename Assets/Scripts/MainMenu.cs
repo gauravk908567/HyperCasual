@@ -6,6 +6,12 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    //private void Awake()
+    //{
+    //    var theScreenWidth = Screen.width;
+    //    var theScreenHeight = Screen.height;
+    //    var theScreenRatio = theScreenWidth / theScreenHeight;
+    //}
     public void PlayBtn()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -17,7 +23,7 @@ public class MainMenu : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
-        Application.OpenURL("https://gauravk908567.itch.io/");
+        Application.Quit();
 
     }
 

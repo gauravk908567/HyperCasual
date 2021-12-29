@@ -8,22 +8,26 @@ public class PlatformSpawnner : MonoBehaviour
     public GameObject SlowSpeed;
     public GameObject[] Moving_Platform;
     public GameObject BreakablePlatform;
+    
 
 
     public float Spawntimer = 2f;
     private float _current_SpawnTimer;
     private int _SpawnCount;
     public float min_X = -4.60f, max_X = +4.60f;
+    
 
     void Start()
     {
         _current_SpawnTimer = Spawntimer;
     }
 
+   
     // Update is called once per frame
     void Update()
     {
         SpawnPlatform();
+        
     }
 
     void SpawnPlatform()
@@ -86,9 +90,6 @@ public class PlatformSpawnner : MonoBehaviour
 
             newplatform.transform.parent = transform;
             _current_SpawnTimer = 0;
-
         }
     }
-
-
 }//class
