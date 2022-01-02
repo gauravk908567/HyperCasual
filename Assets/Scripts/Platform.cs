@@ -5,7 +5,7 @@ using UnityEngine;
 public class Platform : MonoBehaviour
 {
 
-    public float Move_speed = 1.5f;
+    public float Move_speed = 1.2f;
     public float slow_speed = 2.2f;
     public float walkspeed = 0.4f;
     public float Min_X;
@@ -93,12 +93,12 @@ public class Platform : MonoBehaviour
             if (Moveleft)
             {
                 target.gameObject.GetComponent<PlayerMove>().PlatformMove(-2f);
+
             }
             if (MoveRight)
             {
                 target.gameObject.GetComponent<PlayerMove>().PlatformMove(2f);
             }
-            SoundManager.instance.landsound();
         }
 
         if (target.gameObject.tag == "Player" && this.gameObject.tag == "SpeedSlow")
@@ -109,15 +109,15 @@ public class Platform : MonoBehaviour
                 temp.x -= slow_speed * Time.deltaTime;
                 transform.position = temp;
             }
-            if (Input.GetKey(KeyCode.D))
-            {
-                Vector2 temp = transform.position;
-                temp.x += slow_speed * Time.deltaTime;
-                transform.position = temp;
-            }
-            SoundManager.instance.landsound();
-           
         }
-    }//oncollisionstay
+        if (Input.GetKey(KeyCode.D))
+        {
+            Vector2 temp = transform.position;
+            temp.x += slow_speed * Time.deltaTime;
+            transform.position = temp;
+        }
+        SoundManager.instance.landsound();
 
-}//class
+    }
+}
+//class

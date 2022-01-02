@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        time();
+        StartCoroutine(timescaleinc());
     }
 
     public void RestartGame()
@@ -27,22 +27,21 @@ public class GameManager : MonoBehaviour
         Invoke("RestartAftertime", 2f);
     }
 
-    void time()
+    protected IEnumerator timescaleinc()
     {
+            do
+            {
+                count++;
+            yield return new WaitForSeconds(2f);
+            }
+            while (count <= 0);
 
-        do
-        {
-            count++;
-
-        }
-        while (count <= 0);
-        
-        if (count >= 77)
-        {
-            Time.timeScale += 0.001f;
-            count = 0;
-        }
-        
+            if (count >= 77)
+            {
+                Time.timeScale += 0.0015f;
+                count = 0;
+            yield return new WaitForSeconds(5f);
+        } 
     }
     void RestartAftertime() => SceneManager.LoadScene("Gameplay");
 
