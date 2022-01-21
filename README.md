@@ -21,7 +21,7 @@
 - **Instantiation** of objects.
 - Created **prefab** with **different attributes**.
 - Background Scrolling using **Quad**.
-- Used **Collision Methods** for different platforms effect ***(OnCollisionEnter2D , OnCollisionStay2D)***
+- Used **Collision Methods** for different platforms effect.
 
 ------------------------------------------------------------------------------------------------------
 ## Software Used
